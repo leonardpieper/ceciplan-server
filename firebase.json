@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "public": "public",
+    "redirects": [
+      {
+        "source": "/kurse/:post",
+        "destination": "https://test-e84e5.firebaseapp.com/kurse/kurs/:post",
+        "type": 301
+      }
+    ]
+  }
+}
